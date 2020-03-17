@@ -13,6 +13,7 @@ body{
 	margin-bottom:190px;
 	padding-bottom:200px;
 }
+
 .Black{
 	height: auto;
 }
@@ -409,10 +410,13 @@ z-index:100; left:0; display:block;}
 /* 当浏览器窗口不超过最大800px时(意思就是小于800px时) */
 
 @media screen and (max-width: 800px) {
+
 	#sidebar {
 		margin-left:40px;
 	}
-
+	.Black{
+		height: auto !important;
+	}
 	#content {
 		height: 100%;
 		margin-left:340px;
@@ -453,12 +457,12 @@ z-index:100; left:0; display:block;}
 
 /*竖屏*/
 @media all and (orientation : portrait) {
-	.Black{
-		height: 100% !important;
-	}
+
 #wrap{
 	height: auto;
-
+}
+.Black{
+	height: 100%;
 }
 	#sidebar {
 		margin-left: 40px;
