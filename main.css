@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 
 body {margin:0; padding:0; font:92% Tahoma,sans-serif; background:#fefefe url(images/background.jpg) top left repeat-x; color:#555; text-align:left; line-height:1.6em;}
-#wrap {text-align:left;height: 100%; }
+#wrap {text-align:left;!! }
 body{
 	font-size:100%;
 }
@@ -456,7 +456,10 @@ z-index:100; left:0; display:block;}
 	.Black{
 		height: 100% !important;
 	}
+#wrap{
+	height: auto;
 
+}
 	#sidebar {
 		margin-left: 40px;
 
