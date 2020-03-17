@@ -1,0 +1,460 @@
+/* #################### 全局 #################### */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body, #main {
+	color: #555;
+	height: 100%;
+}
+
+
+nav {
+	height: 50px;
+	/*background: #b9e1b1;*/
+}
+
+#content {
+	height: 100%;
+	padding-top: 160px;
+	padding-left:400px;
+	padding-right: 150px;
+	margin-bottom: 50px;
+		/*background: #f9f7ed;*/
+}
+/* #################### 全局 #################### */
+
+/* #################### 导航 #################### */
+nav #menu {
+	float: right;
+	padding-right: 20px;
+}
+nav ul li {
+	float: left;
+	padding: 10px;
+	list-style: none;
+}
+nav ul li a{
+	color: #555;
+	font-size: 12px;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	border-bottom: 10px solid;
+}
+/* #################### 导航 #################### */
+
+/* #################### 侧边栏 #################### */
+/* #################### 侧边栏 #################### */
+
+/* #################### 文章 #################### */
+/* 作者 时间 相关 */
+
+#footer{font-size:0.9em; clear:both; width:980px; line-height:1.4em; color:#777; font-weight:400; margin-bottom:1px;}
+#footer a {color:#777; font-weight:400; text-decoration:none; border-bottom: 1px dotted #888;}
+
+/* Image alignment classes */
+#content img.alignleft {display:inline; float:left; margin:5px 15px 5px 0;}
+#content img.alignright {float:right; margin:5px 0 5px 15px;}
+#content img.aligncenter {display:block; margin:2px auto;}
+#content img.border {border:1px solid #ccc;}
+
+/* Various classes */
+.centered {text-align:center;}
+.hide {display:none;}
+.clear {clear:both; width:980px; visibility:hidden;}
+
+/* Font options */
+.georgia {font: 92% Georgia,serif;}
+.times {font: 92% Times New Roman,serif;}
+.helvetica {font:84% Helvetica,sans-serif;}
+.verdana {font:84% Verdana,sans-serif;}
+.arial {font:84% Arial,sans-serif;}
+.courier {font:84% Courier,monospace;}
+
+
+body {margin:0; padding:0; font:92% Tahoma,sans-serif; background:#fefefe url(images/background.jpg) top left repeat-x; color:#555; text-align:left; line-height:1.6em;}
+#wrap {text-align:left; }
+body{
+	font-size:100%;
+}
+/* Header */
+#headerfont{
+	color:white;
+	font-size: 2.6em;
+	margin-left:4 0px;
+
+	height: 110px;
+	padding-left: 320px;
+	margin-top: 20px;
+}
+#headerfontEn{
+	color:white;
+	font-size: 16px;
+	font-style: Adobe Hebrew Bold;
+	margin-top:12px;
+	padding-left:36px;
+}
+#headerfontChinese{
+	padding-left: 6.5px;
+	display:inline
+}
+#header2{width: 100%;height: 112px;background-color:rgb(14, 71, 156); argin-top: 0px;position: fixed;}
+#header1 { height:90px;padding-right: 80px;padding-left:10px; padding-top: 15px;position: fixed;}
+#header { height:110px;padding-right: 80px;padding-left: 280px;margin-top: 25px;position: fixed;}
+#headerimage {float:right; width:500px; height:160px; margin:0 0 15px 0; overflow:hidden;}
+#title {width:460px; text-align:left;}
+h1 {margin:0 auto; padding:0; font-size:2.4em; font-weight:700; letter-spacing:-1px; line-height:2.2em; text-shadow:#ddd;}
+h1 a {font-weight:700; text-decoration:none;}
+h1 a:hover {color:#222; text-decoration:none;}
+.slogan {color:#555; font-size:1.4em; margin:0 0 15px 0; padding:0; text-shadow:#ccc 2px 2px 8px;}
+
+/* HTML Tags */
+a {font-weight:400;}
+
+a img {border:0;}
+h2 {clear:left; margin:0 0 12px 0; padding:0 0 8px; font-size:1.35em; font-weight:700; border-bottom:1px solid #ddd; text-shadow:#ccc 2px 2px 8px;}
+h3 {clear:left; font-size:1.1em; font-weight:700; margin:0 0 10px 0; padding:2px 0; border-bottom:1px solid #ddd; text-shadow:#ccc 2px 2px 6px;}
+h4 {margin-bottom:5px;padding-left: 18px;}
+p {margin:0 0 4px 0;  padding-left:2.9em;}
+
+
+	
+ul {margin:0 0 15px 20px; padding:0;}
+#content li {margin:10px 0 10px 0; padding:0 0 0px 5px;padding-left: 20px; text-align: justify;}
+#margin-top-h2{
+margin-top: 40px;
+}
+#Research li{
+	list-style: none;
+	background:url(images/li.gif) no-repeat left center; 
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 26px;
+	width: 96%;
+	display: inline-block;
+
+}
+#ProfessionalActivties li{
+	list-style: none;
+	background:url(images/li.gif) no-repeat left center; 
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 26px;
+	width: 96%;
+	display: inline-block;
+}
+ol{
+	padding-left: 35px;
+}
+#News li{
+	list-style: none;
+	background:url(images/li.gif) no-repeat left center; 
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 26px;
+	width: 96%;
+	display: inline-block;
+}
+
+#Journal li
+{
+	list-style: none;
+	
+	background:url(images/jiantou.jpg) no-repeat left center;
+	margin-left: 7px;
+	
+
+}
+#Journal  li h3{
+	margin-left: 10px;
+}
+
+#Journalnext li{
+	list-style: none;
+	background:url(images/li.gif) no-repeat left center; 
+	margin-left: 42px;
+	height: 26px;
+	width: 96%;
+	display: inline-block;
+}
+#educationli li{
+	list-style: none;
+	background:url(images/li.gif) no-repeat left center; 
+	margin-left: 45px;
+	height: 26px;
+	width: 90%;
+	display: inline-block;
+}
+
+#education li{
+	list-style: none;
+	background:url(images/jiantou.jpg) no-repeat left center;
+	margin-left: 10px; 
+	width:96%;
+	
+}
+#education h4{
+	padding-left: 10px;
+}
+
+#supervision  li
+{
+	list-style: none;
+	background:url(images/li.gif) no-repeat left center; 
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 26px;
+	width: 96%;
+	display: inline-block;
+}
+
+#supervision  p
+{
+	text-align: left;
+
+}
+#index  li
+{
+	list-style: none;
+	background:url(images/li.gif) no-repeat left center; 
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 26px;
+	width: 96%;
+	display: inline-block;
+
+
+}
+
+
+#supervision p{
+	padding-left: 2.8em;
+}
+#headerp{
+	margin:0 0 10px 0;  
+	text-align: justify;
+	margin-left: 40px;
+
+}
+#sidebar h2 {font-size:1.0em; padding-bottom:5px; border-bottom:1px solid #ddd; margin:15px 0 10px;}
+#sidebar ul {list-style:none; margin:0 0 15px 0;}
+#sidebar li {padding:0; margin:0;}
+#sidebar ul {width:200x; padding:0; margin:0 0 20px 0; border-top:0px;}/*调整目录上边线及其距离*/
+/*调整目录字体及其显示样式*/
+#sidebar ul li a {display:block; text-decoration:none; padding:7px 0 0 15px; margin:0; text-align: left;padding-left:5px;font-size:1.1em; border-bottom: 1px solid #ddd; font-weight:700; text-shadow:#ddd 2px 2px 4px;}
+#sidebar ul ul {width:200px; padding:0; margin:0 0 0 20px;}
+#sidebar ul li a:hover {color:#333; text-decoration:none; border-bottom: 1px solid #ddd;}/*调整目录下边线及其距离*/
+#sidebar ul li a.active {color:#333;}
+#sidebar ul ul {width:200px; padding:0; margin:0 0 0 20px;}
+#sidebar ul ul li a {padding:2px 0 2px 15px; margin:0; font-size:0.9em; font-weight:400;}
+#a1 {display:block; text-decoration:none; padding:7px 0 0 15px; margin:0; text-align: left;padding-left:5px;font-size:1.0em; border-bottom: 1px solid #ddd; font-weight:700; text-shadow:#ddd 2px 2px 4px;  }
+#sidebar {
+	width: 220px;
+	height: 100%;
+	position: fixed;
+    background:white;
+	padding-left: 120px;
+	margin-top: 170px;
+
+}
+#Contactfont{
+	margin-top: 10px;
+}
+#Contactback{
+	color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 14.4444446563721px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21.9022235870361px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);
+}
+
+/* 表格处理 */
+#article table {
+  width: 100%;
+  border: 0;
+  margin: 20px 0 50px 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  line-height: 35px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px #999;
+}
+
+#article table th {
+  background: #73b1e0;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: left;
+  line-height: 35px;
+  color: #FFF;
+}
+
+#article table tr:nth-child(odd) {
+  background: #F4F4F4;
+}
+
+#article table tr:hover,
+#article table td:hover {
+  background: #badbf5;
+  color: #FFF;
+}
+
+#article table td, table th {
+  padding: 5px 20px 5px 20px
+}
+
+#article table tr:first-child th:first-child {
+  border-top-left-radius: 3px;
+}
+
+#article table tr:first-child th:last-child {
+  border-top-right-radius: 3px;
+}
+
+#article table tr:last-child td:first-child {
+  border-bottom-left-radius: 3px;
+}
+
+#article table tr:last-child td:last-child {
+  border-bottom-right-radius: 3px;
+}
+
+/* #################### 文章 #################### */
+
+/* #################### 点击目录动画 #################### */
+
+/* #################### 点击目录动画 #################### */
+
+/* #################### 文章索引 #################### */
+
+
+/* #################### 文章索引 #################### */
+
+/* #################### 主页 #################### 
+
+#articleList {
+	position: absolute;
+}
+
+#articleList .article-li {
+	margin: 20px;
+	height: 200px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px #999;
+	list-style: none;
+	border: 1px solid #999;
+}
+
+#articleList .article-digest * {
+	word-wrap: break-word;
+	display: inline;
+	font-size: 12px;
+	color: #555;
+	text-decoration: none;
+	cursor:auto;
+	border-radius: none;
+	box-shadow: none;
+}
+
+#articleList .article-digest{
+	padding: 30px;
+    position: relative;
+    top: 35px;
+    width: 85%;
+}
+
+#articleList .article-date{
+	position: relative;
+	background: #e06c75;
+	color: #f9f7ed;
+	padding: 10px;
+	top: -5px;
+	border-radius: 2px;
+	margin-left: 30px;
+}
+
+#articleList .article-read {
+    position: absolute;
+    background: #e06c75;
+    color: #f9f7ed;
+    padding: 10px;
+    border-radius: 2px;
+    right: 15px;
+    margin-top: 140px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+#articleList .article-title {
+	position: relative;
+	color: #555;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+    top: 50px;
+    right: 110px;
+}*/
+
+/* #################### 主页 #################### */
+
+
+/* #################### 自适应 #################### */
+
+/* 当浏览器窗口不超过最大800px时(意思就是小于800px时) */
+
+@media screen and (max-width: 800px) {
+	#sidebar {
+		padding-left: 0;
+	}
+
+	#content {
+		padding-left:250px;
+		margin-right: 80px;
+	}
+	#sidebar1 {
+		padding-left: 0;
+	}
+	#header1 {
+		padding-left:0px;
+	}
+	#header {
+		padding-left:220px;
+	}
+
+	canvas#live2dcanvas {
+		display: none;
+	}
+}
+
+/*竖屏*/
+@media all and (orientation : portrait) {
+
+	#sidebar {
+		padding-left: 0;
+	}
+	#sidebar1 {
+		padding-left: 0;
+	}
+
+	#content {
+		padding-left:280px;
+		margin-right: 80px;
+	}
+	#header1 {
+		padding-left:0px;
+	}
+	#header {
+		padding-left:200px;
+	}
+
+
+	canvas#live2dcanvas {
+		display: none;
+	}
+
+}
+
+/* #################### 自适应 #################### */
+
+
+
+
+
