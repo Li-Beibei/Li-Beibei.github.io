@@ -273,6 +273,7 @@ z-index:100; left:0; display:block;}
 	padding-left: 2.8em;
 }
 #headerp{
+
 	margin:0 0 10px 0;  
 	text-align: justify;
 	margin-left: 40px;
@@ -397,7 +398,7 @@ z-index:100; left:0; display:block;}
 	padding-left: 4.8em;
 }
 #rightfooter{
-	display:block;width:500px; text-align:right;float: right;margin:25px 40px 0px 40px;
+	display:block; float: right;margin:25px 80px 0px 40px;
 
 }
 
@@ -449,7 +450,7 @@ z-index:100; left:0; display:block;}
 	padding-left: 4.8em;
 }
 #rightfooter{
-	display:block;width:500px;text-align:right;float: right;margin:25px 40px 0px 40px;
+	display:block;float: right;margin:25px 40px 0px 40px;
 
 }
 }
@@ -508,7 +509,7 @@ html{
 	padding-left: 4.8em;
 }
 #rightfooter{
-	display:block;width:500px; text-align:right;float: left;float: right;margin:25px 40px 0px 40px;
+	display:block; float: left;float: right;margin:25px 40px 0px 40px;
 
 }
 }
