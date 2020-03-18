@@ -28,7 +28,7 @@ nav {
 #content {
 	height: 100%;
     margin-left:400px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	margin-right: 80px;
 
 		/*background: #f9f7ed;*/
@@ -204,6 +204,8 @@ ul {margin:0 0 15px 20px; padding:0;}
 	margin-left: 10px; 
 	width:96%;
 	display: inline-block;
+	margin-bottom: 0px;
+	margin-top: 30px;
 	
 	
 }
@@ -243,12 +245,12 @@ ul {margin:0 0 15px 20px; padding:0;}
 
 #back {
 	position: fixed;
-	width: 45px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	line-height: 30px;
 
-	right: 40px;
-	bottom: 200px;
+	right: 25px;
+	bottom: 150px;
 	display: none;
 	font-weight: 5px;
 	cursor:pointer;
@@ -397,7 +399,7 @@ z-index:100; left:0; display:block;}
 	padding-left: 4.8em;
 }
 #rightfooter{
-	display:block;width:500px; text-align:right;float: right;margin:25px 80px 0px 40px;
+	display:block;width:500px; text-align:right;float: right;margin:25px 40px 0px 40px;
 
 }
 
@@ -409,7 +411,12 @@ z-index:100; left:0; display:block;}
 /* 当浏览器窗口不超过最大800px时(意思就是小于800px时) */
 
 @media screen and (max-width: 800px) {
-
+	html{
+		height: auto;
+	}
+	#wrap{
+		margin-bottom: 150px;
+	}
 	#sidebar {
 		margin-left:40px;
 	}
@@ -418,7 +425,7 @@ z-index:100; left:0; display:block;}
 	}
 	#content {
 		height: 100%;
-		margin-left:310px;
+		margin-left:340px;
 		margin-bottom: 50px;
 		margin-right: 40px;
 	
@@ -455,6 +462,26 @@ z-index:100; left:0; display:block;}
 }
 
 /*竖屏*/
+@media screen and (max-width: 700px) {
+
+	#wrap{
+		margin-bottom: 150px;
+	}
+	html{
+		position: relative;
+		height: auto;
+	}
+	.Black{
+		height: auto;
+	}
+	#footer1{
+		position: absolute;
+	}
+	#wrap{
+		height: 100%;
+		margin-bottom: 150px;
+	}
+}
 @media all and (orientation : portrait) {
 html{
 	position: relative;
@@ -476,7 +503,7 @@ html{
 
 	#content {
 		height: 100%;
-		margin-left:310px;
+		margin-left:340px;
 		margin-bottom: 50px;
 		margin-right: 40px;
 	
