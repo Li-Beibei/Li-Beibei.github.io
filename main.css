@@ -9,6 +9,11 @@ html, body, #main {
 	height: 100%;
 	width:100%;
 }
+body{
+	margin-bottom:190px;
+	padding-bottom:200px;
+}
+
 
 .Black{
 	height: auto;
@@ -462,7 +467,7 @@ z-index:100; left:0; display:block;}
 	height: auto;
 }
 .Black{
-	height: 70%;
+	height: 100%;
 }
 	#sidebar {
 		margin-left: 40px;
