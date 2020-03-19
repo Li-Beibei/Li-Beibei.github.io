@@ -420,14 +420,14 @@ z-index:100; left:0; display:block;}
 	}
 	#sidebar {
 		margin-left:40px;
-		width: 25%;
+		width: 20%;
 	}
 	.Black{
 		height: auto !important;
 	}
 	#content {
 		height: 100%;
-		margin-left:45%;
+		margin-left:30%;
 		margin-bottom: 100px;
 		margin-right: 40px;
 	
@@ -487,7 +487,7 @@ z-index:100; left:0; display:block;}
 	}
 	#content {
 		height: 100%;
-		margin-left:45%;
+		margin-left:30%;
 		margin-bottom: 100px;
 		margin-right: 40px;
 	
@@ -495,7 +495,7 @@ z-index:100; left:0; display:block;}
 	}
 	#sidebar {
 		margin-left:40px;
-		width: 25%;
+		width: 20%;
 	}
 }
 @media all and (orientation : portrait) {
@@ -515,13 +515,13 @@ html{
 }
 	#sidebar {
 		margin-left: 40px;
-		width:25%;
+		width:20%;
 
 	}
 
 	#content {
 		height: 100%;
-		margin-left:45%;
+		margin-left:30%;
 		margin-bottom: 100px;
 		margin-right: 40px;
 	
