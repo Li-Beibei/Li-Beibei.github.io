@@ -420,7 +420,7 @@ z-index:100; left:0; display:block;}
 	}
 	#sidebar {
 		margin-left:40px;
-		width: 30%;
+		width: 25%;
 	}
 	.Black{
 		height: auto !important;
@@ -478,6 +478,8 @@ z-index:100; left:0; display:block;}
 	}
 	#footer1{
 		position: absolute;
+		margin-bottom: 0px;
+
 	}
 	#wrap{
 		height: 100%;
@@ -493,7 +495,7 @@ z-index:100; left:0; display:block;}
 	}
 	#sidebar {
 		margin-left:40px;
-		width: 30%;
+		width: 25%;
 	}
 }
 @media all and (orientation : portrait) {
@@ -506,13 +508,14 @@ html{
 }
 #footer1{
 	position: absolute;
+	margin-bottom: 0px;
 }
 #wrap{
 	height: 100%;
 }
 	#sidebar {
 		margin-left: 40px;
-		width:30%;
+		width:25%;
 
 	}
 
