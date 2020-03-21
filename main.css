@@ -1,9 +1,6 @@
 /* #################### 全局 #################### */
 
-*{
-	margin: 0;
-	padding: 0;
-}
+
 html, body, #main {
 	color: #555;
 	height: 100%;
@@ -269,7 +266,9 @@ ul {margin:0 0 15px 20px; padding:0;}
 	margin-right: 20px;
 	margin-left: 20px;
 }
-
+#index p{
+	margin-left: 4px;
+}
 #back {
 	position: fixed;
 	width: 30px;
