@@ -236,7 +236,18 @@ ul {margin:0 0 15px 20px; padding:0;}
 	margin-right: 20px;
 	margin-left: 20px;
 	width: 95%;
+	margin-top: 25px;
+
 	
+}
+#supervisions  li
+{
+	list-style: none;
+	background:url(images/li.gif) no-repeat 0px 10px; 
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 95%;
+   
 }
 #supervision p{
 	margin:0 0 4px 0;  padding-left:2.9em;
@@ -254,7 +265,6 @@ ul {margin:0 0 15px 20px; padding:0;}
 	width: 30px;
 	height: 30px;
 	line-height: 30px;
-
 	right: 25px;
 	bottom: 150px;
 	display: none;
@@ -310,7 +320,7 @@ z-index:100; left:0; display:block;}
 	margin-top: 10px;
 }
 #Contactback{
-	color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 14.4444446563721px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21.9022235870361px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21.9022235870361px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);
 }
 
 
