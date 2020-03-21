@@ -27,7 +27,7 @@ nav {
 
 #content {
 	height: 100%;
-    margin-left:25%;
+    margin-left:23%;
 	margin-bottom: 100px;
 	margin-right: 80px;
 
@@ -177,7 +177,7 @@ ul {margin:0 0 15px 20px; padding:0;}
 {
 	list-style: none;
 	
-	background:url(images/jiantou.jpg) no-repeat 0px 5px; 
+	background:url(images/jiantou.jpg) no-repeat 0px 7px; 
 	margin-left: 10px;
 	
 
@@ -195,25 +195,27 @@ ul {margin:0 0 15px 20px; padding:0;}
 #educationli li{
 	list-style: none;
 	background:url(images/li.gif) no-repeat 0px 10px; 
-	margin-left: 45px;
+	margin-left: 55px;
 }
-
 #education li{
 	list-style: none;
-	background:url(images/jiantou.jpg) no-repeat 0px 5px;
-	margin-left: 10px; 
-	width:96%;
-	display: inline-block;
-	margin-bottom: 0px;
+	background:url(images/jiantou.jpg) no-repeat 0px 5px; 
+	margin-right: 20px;
+	margin-left: 20px;
+	
+	width: 96%;
+
+
+
+
 }
 #education1 li{
 	list-style: none;
 	background:url(images/jiantou.jpg) no-repeat 0px 5px;
-	margin-left: 10px; 
+	margin-left: 20px; 
 	width:96%;
-	display: inline-block;
 	margin-bottom: 0px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 #educationli  p{
 	margin:0 0 4px 0;  padding-left:2.9em;
@@ -221,6 +223,9 @@ ul {margin:0 0 15px 20px; padding:0;}
 }
 
 #education h4{
+	padding-left: 8px;
+}
+#education1 h4{
 	padding-left: 8px;
 }
 #education p{
@@ -236,7 +241,8 @@ ul {margin:0 0 15px 20px; padding:0;}
 	margin-right: 20px;
 	margin-left: 20px;
 	width: 95%;
-	margin-top: 25px;
+	margin-top: 20px;
+	margin-bottom: 0px;
 
 	
 }
@@ -246,11 +252,15 @@ ul {margin:0 0 15px 20px; padding:0;}
 	background:url(images/li.gif) no-repeat 0px 10px; 
 	margin-right: 20px;
 	margin-left: 20px;
-	width: 95%;
+	width: 96%;
+	margin-bottom: 0px;
    
 }
+#supervisions p{
+	margin:0 0 4px 0;  padding-left:3.2em;
+}
 #supervision p{
-	margin:0 0 4px 0;  padding-left:2.9em;
+	margin:0 0 4px 0;  margin-left: 0.3em;
 }
 #index  li
 {
@@ -307,7 +317,7 @@ z-index:100; left:0; display:block;}
 #sidebar ul li a.active {color:#333;}
 #sidebar ul ul li a {padding:2px 0 2px 15px; margin:0; font-size:0.9em; font-weight:400;}
 #sidebar {
-	width: 14%;
+	width: 12%;
 
     background:white;
 	height: 0px;
@@ -482,9 +492,9 @@ font-size: 14px;
 /*竖屏*/
 @media screen and (max-width: 700px) {
 
-	#wrap{
+	/*#wrap{
 		margin-bottom: 150px;
-	}
+	}*/
 	html{
 		position: relative;
 		height: auto;
