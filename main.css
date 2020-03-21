@@ -58,8 +58,6 @@ nav ul li a:hover {
 /* #################### 文章 #################### */
 /* 作者 时间 相关 */
 
-#footer{font-size:0.9em; clear:both; width:980px; line-height:1.4em; color:#777; font-weight:400; margin-bottom:1px;}
-#footer a {color:#777; font-weight:400; text-decoration:none; border-bottom: 1px dotted #888;}
 
 /* Image alignment classes */
 #content img.alignleft {display:inline; float:left; margin:5px 15px 5px 0;}
@@ -413,7 +411,7 @@ font-size: 14px;
 
 #footer1{
 	height: 112px; background-color:rgb(88, 87, 87);color: white;  background-size: cover;
-	margin: 0;left: 0;right: 0px; font-size: 12px;line-height:1.8rem;width: 100%;
+	margin: 0;left: 0;right: 0px; font-size: 12px;line-height:1.8rem;width: 100%;bottom: 0px;
 }
 #leftfooter
 {
@@ -472,7 +470,7 @@ font-size: 14px;
 	
 #footer1{
 	height: 112px; background-color:rgb(88, 87, 87);color: white;width: 100%;
-	margin: 0;left: 0;right: 0px;bottom: 0; font-size: 12px;line-height:1.8rem;
+	margin: 0;left: 0;right: 0px;bottom: 0; font-size: 12px;line-height:1.8rem;bottom: 0px;
 }
 #leftfooter
 {
