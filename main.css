@@ -1,6 +1,9 @@
 /* #################### 全局 #################### */
 
-
+*{
+	margin: 0;
+	padding: 0;
+}
 html, body, #main {
 	color: #555;
 	height: 100%;
@@ -24,8 +27,8 @@ nav {
 
 #content {
 	height: 100%;
-    margin-left:23%;
-	margin-bottom: 100px;
+    margin-left:400px;
+	margin-bottom: 50px;
 	margin-right: 80px;
 
 		/*background: #f9f7ed;*/
@@ -58,6 +61,8 @@ nav ul li a:hover {
 /* #################### 文章 #################### */
 /* 作者 时间 相关 */
 
+#footer{font-size:0.9em; clear:both; width:980px; line-height:1.4em; color:#777; font-weight:400; margin-bottom:1px;}
+#footer a {color:#777; font-weight:400; text-decoration:none; border-bottom: 1px dotted #888;}
 
 /* Image alignment classes */
 #content img.alignleft {display:inline; float:left; margin:5px 15px 5px 0;}
@@ -172,7 +177,7 @@ ul {margin:0 0 15px 20px; padding:0;}
 {
 	list-style: none;
 	
-	background:url(images/jiantou.jpg) no-repeat 0px 7px; 
+	background:url(images/jiantou.jpg) no-repeat 0px 5px; 
 	margin-left: 10px;
 	
 
@@ -190,27 +195,17 @@ ul {margin:0 0 15px 20px; padding:0;}
 #educationli li{
 	list-style: none;
 	background:url(images/li.gif) no-repeat 0px 10px; 
-	margin-left: 55px;
+	margin-left: 45px;
 }
+
 #education li{
 	list-style: none;
-	background:url(images/jiantou.jpg) no-repeat 0px 5px; 
-	margin-right: 20px;
-	margin-left: 20px;
-	
-	width: 96%;
-
-
-
-
-}
-#education1 li{
-	list-style: none;
 	background:url(images/jiantou.jpg) no-repeat 0px 5px;
-	margin-left: 20px; 
+	margin-left: 10px; 
 	width:96%;
-	margin-bottom: 0px;
-	margin-top: 20px;
+	display: inline-block;
+	
+	
 }
 #educationli  p{
 	margin:0 0 4px 0;  padding-left:2.9em;
@@ -218,9 +213,6 @@ ul {margin:0 0 15px 20px; padding:0;}
 }
 
 #education h4{
-	padding-left: 8px;
-}
-#education1 h4{
 	padding-left: 8px;
 }
 #education p{
@@ -236,26 +228,10 @@ ul {margin:0 0 15px 20px; padding:0;}
 	margin-right: 20px;
 	margin-left: 20px;
 	width: 95%;
-	margin-top: 20px;
-	margin-bottom: 0px;
-
 	
 }
-#supervisions  li
-{
-	list-style: none;
-	background:url(images/li.gif) no-repeat 0px 10px; 
-	margin-right: 20px;
-	margin-left: 20px;
-	width: 96%;
-	margin-bottom: 0px;
-   
-}
-#supervisions p{
-	margin:0 0 4px 0;  padding-left:3.2em;
-}
 #supervision p{
-	margin:0 0 4px 0;  margin-left: 0.3em;
+	margin:0 0 4px 0;  padding-left:2.9em;
 }
 #index  li
 {
@@ -264,16 +240,15 @@ ul {margin:0 0 15px 20px; padding:0;}
 	margin-right: 20px;
 	margin-left: 20px;
 }
-#index p{
-	margin-left: 4px;
-}
+
 #back {
 	position: fixed;
-	width: 30px;
-	height: 30px;
+	width: 45px;
+	height: 40px;
 	line-height: 30px;
-	right: 25px;
-	bottom: 150px;
+
+	right: 40px;
+	bottom: 200px;
 	display: none;
 	font-weight: 5px;
 	cursor:pointer;
@@ -298,23 +273,24 @@ z-index:100; left:0; display:block;}
 	padding-left: 2.8em;
 }
 #headerp{
+	font-size: 14px;
 	margin:0 0 10px 0;  
 	text-align: justify;
 	margin-left: 40px;
 
 }
 
-#sidebar h2 {font-size:0.9.0em; padding-bottom:5px; border-bottom:1px solid #ddd; margin:15px 0 10px;}
+#sidebar h2 {font-size:1.0em; padding-bottom:5px; border-bottom:1px solid #ddd; margin:15px 0 10px;}
 #sidebar ul {list-style:none; margin:0 0 15px 0;}
 #sidebar li {padding:0; margin:0;}
 #sidebar ul {width:100%; padding:0; margin:0 0 20px 0; border-top:0px;}/*调整目录上边线及其距离*/
 /*调整目录字体及其显示样式*/
-#sidebar ul li a {display:block; text-decoration:none; padding:7px 0 0 15px; margin:0; text-align: left;padding-left:5px;font-size:1.0em; border-bottom: 1px solid #ddd; font-weight:700; text-shadow:#ddd 2px 2px 4px;}
+#sidebar ul li a {display:block; text-decoration:none; padding:7px 0 0 15px; margin:0; text-align: left;padding-left:5px;font-size:1.1em; border-bottom: 1px solid #ddd; font-weight:700; text-shadow:#ddd 2px 2px 4px;}
 #sidebar ul li a:hover {color:#333; text-decoration:none; border-bottom: 1px solid #ddd;}/*调整目录下边线及其距离*/
 #sidebar ul li a.active {color:#333;}
 #sidebar ul ul li a {padding:2px 0 2px 15px; margin:0; font-size:0.9em; font-weight:400;}
 #sidebar {
-	width: 12%;
+	width: 220px;
 
     background:white;
 	height: 0px;
@@ -327,7 +303,7 @@ z-index:100; left:0; display:block;}
 	margin-top: 10px;
 }
 #Contactback{
-font-size: 14px;
+	color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 14.4444446563721px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21.9022235870361px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);
 }
 
 
@@ -411,7 +387,7 @@ font-size: 14px;
 
 #footer1{
 	height: 112px; background-color:rgb(88, 87, 87);color: white;  background-size: cover;
-	margin: 0;left: 0;right: 0px; font-size: 12px;line-height:1.8rem;width: 100%;bottom: 0px;
+	margin: 0;left: 0;right: 0px; font-size: 13px;line-height:1.8rem;width: 100%;
 }
 #leftfooter
 {
@@ -439,19 +415,17 @@ font-size: 14px;
 	}
 	#wrap{
 		margin-bottom: 150px;
-	
 	}
 	#sidebar {
 		margin-left:40px;
-		width: 15%;
 	}
 	.Black{
 		height: auto !important;
 	}
 	#content {
 		height: 100%;
-		margin-left:28%;
-		margin-bottom: 100px;
+		margin-left:340px;
+		margin-bottom: 50px;
 		margin-right: 40px;
 	
 			/*background: #f9f7ed;*/
@@ -470,7 +444,7 @@ font-size: 14px;
 	
 #footer1{
 	height: 112px; background-color:rgb(88, 87, 87);color: white;width: 100%;
-	margin: 0;left: 0;right: 0px;bottom: 0; font-size: 12px;line-height:1.8rem;bottom: 0px;
+	margin: 0;left: 0;right: 0px;bottom: 0; font-size: 13px;line-height:1.8rem;
 }
 #leftfooter
 {
@@ -489,9 +463,9 @@ font-size: 14px;
 /*竖屏*/
 @media screen and (max-width: 700px) {
 
-	/*#wrap{
+	#wrap{
 		margin-bottom: 150px;
-	}*/
+	}
 	html{
 		position: relative;
 		height: auto;
@@ -501,24 +475,10 @@ font-size: 14px;
 	}
 	#footer1{
 		position: absolute;
-		margin-bottom: 0px;
-
 	}
 	#wrap{
 		height: 100%;
 		margin-bottom: 150px;
-	}
-	#content {
-		height: 100%;
-		margin-left:28%;
-		margin-bottom: 100px;
-		margin-right: 40px;
-	
-			/*background: #f9f7ed;*/
-	}
-	#sidebar {
-		margin-left:40px;
-		width: 15%;
 	}
 }
 @media all and (orientation : portrait) {
@@ -531,21 +491,19 @@ html{
 }
 #footer1{
 	position: absolute;
-	margin-bottom: 0px;
 }
 #wrap{
 	height: 100%;
 }
 	#sidebar {
 		margin-left: 40px;
-		width:15%;
 
 	}
 
 	#content {
 		height: 100%;
-		margin-left:28%;
-		margin-bottom: 100px;
+		margin-left:340px;
+		margin-bottom: 50px;
 		margin-right: 40px;
 	
 			/*background: #f9f7ed;*/
@@ -565,7 +523,7 @@ html{
 	
 #footer1{
 	height: 112px; background-color:rgb(88, 87, 87);color: white;width: 100%;
-	margin: 0;left: 0;right: 0px;bottom: 0; font-size: 12px;line-height:1.8rem;
+	margin: 0;left: 0;right: 0px;bottom: 0; font-size: 13px;line-height:1.8rem;
 }
 #leftfooter
 {
