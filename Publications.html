@@ -212,7 +212,7 @@
                 $('#gapDiv').css('display', 'none');
                 $('#label1').css('line-height', -+'px');
             }
-            var pageH = document.body.scrollHeight;//页面的实际高度
+            var pageH=document.body.scrollHeight||document.body.clientHeight;//页面的实际高度
         }, 100);
     }
 </script>
