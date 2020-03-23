@@ -178,7 +178,7 @@
 			D</label>
 	</div>
 
-<!--	<div id="footer1">
+	<div id="footer1">
 		<div id="leftfooter">
 			<span>Address: No. 24, 1st South Section, Yihuan Road, Wuhou District, Chengdu, Sichuan Province, P.R.
 				China 610065</span>
@@ -194,9 +194,9 @@
 
 		</div>
 	</div>
-	-->
-	<label id="label0" style="text-align: center; display: block; width: 100%; margin-bottom: 0px;">
-		页面最后一行文字</label>
+	
+<!--	<label id="label0" style="text-align: center; display: block; width: 100%; margin-bottom: 0px;">
+		页面最后一行文字</label>-->
 
 </body>
 
@@ -232,17 +232,20 @@
     function upadateHtml() {
         setTimeout(function () {
             var headH = $('#wrap').height();
+			alert(headH);
             var deviceH = document.documentElement.clientHeight; //可用的设备高度
-            var labelH = $('#label0').height();
+			alert(deviceH);
+            var labelH = $('#footer1').height();
+			alert(labelH);
             var realH = labelH + headH;
             if (realH < deviceH) {
                 $('#gapDiv').css('height', deviceH - realH + 'px');
                 $('#label1').css('line-height', deviceH - realH + 'px');
                 $('#gapDiv').css('display', 'block');
             } else {
-                $('#gapDiv').css('height', realH - deviceH + 'px');
-                $('#label1').css('line-height', realH - deviceH + 'px');
-                $('#gapDiv').css('display', 'block');
+                $('#gapDiv').css('height', 0 + 'px');
+                $('#gapDiv').css('display','none');
+                $('#label1').css('line-height',-+'px');
             }
             var pageH = document.body.scrollHeight; //页面的实际高度
         }, 100);
