@@ -30,7 +30,7 @@
 
 </head>
 
-<body class="Black">
+<body class="Black" onload="loadHtml()" style="background-color: purple;" onorientationchange="onOrientationChanged()">
 	<div id="wrap" style="height: 100%; ">
 		<div id="header2">
 			<div id="header1">
@@ -172,8 +172,13 @@
 
 
 	</div>
+	<div id="gapDiv" style="height: 0px; background: black; opacity: 0.5">
+		<label id="label1" style="display: block; text-align: center; line-height: 100%;
+			font-size: 30px; color: white;">
+			D</label>
+	</div>
 
-	<div id="footer1">
+<!--	<div id="footer1">
 		<div id="leftfooter">
 			<span>Address: No. 24, 1st South Section, Yihuan Road, Wuhou District, Chengdu, Sichuan Province, P.R.
 				China 610065</span>
@@ -189,6 +194,7 @@
 
 		</div>
 	</div>
+	-->
 
 </body>
 
@@ -211,4 +217,32 @@
 			document.body.scrollTop = 0;
 		}
 	}
+</script>
+
+<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script>
+    function loadHtml() {
+        upadateHtml();
+    }
+    function onOrientationChanged() {
+        upadateHtml();
+    }
+    function upadateHtml() {
+        setTimeout(function () {
+            var headH = $('#wrap').height();
+            var deviceH = document.documentElement.clientHeight; //可用的设备高度
+            var labelH = $('#label0').height();
+            var realH = labelH + headH;
+            if (realH < deviceH) {
+                $('#gapDiv').css('height', deviceH - realH + 'px');
+                $('#label1').css('line-height', deviceH - realH + 'px');
+                $('#gapDiv').css('display', 'block');
+            } else {
+                $('#gapDiv').css('height', realH - deviceH + 'px');
+                $('#label1').css('line-height', realH - deviceH + 'px');
+                $('#gapDiv').css('display', 'block');
+            }
+            var pageH = document.body.scrollHeight; //页面的实际高度
+        }, 100);
+    }
 </script>
