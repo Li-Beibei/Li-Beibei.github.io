@@ -26,7 +26,7 @@
 			font-size: large;
 		}
 
-		@media all and (orientation : portrait) {
+	/*	@media all and (orientation : portrait) {
 			html {
 				height: auto !important;
 				padding-bottom: 300px;
@@ -42,7 +42,7 @@
 
 </head>
 
-<body class="Black">
+<body class="Black" onload="loadHtml()"  onorientationchange="onOrientationChanged()">
 	<div id="wrap">
 		<div id="header2">
 			<div id="header1">
@@ -272,6 +272,11 @@
 
 
 	</div>
+	<div id="gapDiv" style="height: 0px; background:white; opacity: 0.5">
+		<label id="label1" style="display: block; text-align: center; line-height: 100%;
+			font-size: 30px; color:blue;">
+			</label>
+	</div>
 	<div id="footer1">
 		<div id="leftfooter">
 			<span>Address: No. 24, 1st South Section, Yihuan Road, Wuhou District, Chengdu, Sichuan Province, P.R.
@@ -287,6 +292,7 @@
 				<span>Copyright © 2020 Beibei Li, Sichuan University. All Rights Reserved.</span>
 
 		</div>
+	</div>
 </body>
 
 </html>
@@ -308,4 +314,34 @@
 			document.body.scrollTop = 0;
 		}
 	}
+</script>
+<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script>
+    function loadHtml() {
+        upadateHtml();
+    }
+    function onOrientationChanged() {
+        upadateHtml();
+    }
+    function upadateHtml() {
+        setTimeout(function () {
+            var headH = $('#wrap').height();
+			alert(headH);
+            var deviceH = document.documentElement.clientHeight; //可用的设备高度
+			alert(deviceH);
+            var labelH = $('#footer1').height();
+			alert(labelH);
+            var realH = labelH + headH;
+            if (realH < deviceH) {
+                $('#gapDiv').css('height', deviceH - realH + 'px');
+                $('#label1').css('line-height', deviceH - realH + 'px');
+                $('#gapDiv').css('display', 'block');
+            } else {
+                $('#gapDiv').css('height', 0 + 'px');
+                $('#gapDiv').css('display','none');
+                $('#label1').css('line-height',-+'px');
+            }
+            var pageH = document.body.scrollHeight; //页面的实际高度
+        }, 100);
+    }
 </script>
