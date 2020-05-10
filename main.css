@@ -16,6 +16,7 @@ body{
 }
 ol{
 	padding-left: 35px;
+	
 }
 nav {
 	height: 50px;
@@ -24,10 +25,10 @@ nav {
 
 #content {
 	height: 100%;
-    margin-left:23%;
+    margin-left:27%;
 	margin-bottom: 100px;
-	margin-right: 80px;
-
+	margin-right: 120px;
+	
 		/*background: #f9f7ed;*/
 }
 /* #################### 全局 #################### */
@@ -80,7 +81,7 @@ nav ul li a:hover {
 
 
 body {margin:0; padding:0; font:92% Tahoma,sans-serif; background:#fefefe url(images/background.jpg) top left repeat-x; color:#555; text-align:left; line-height:1.6em;}
-#wrap {text-align:left;!! }
+#wrap {text-align:left;!!  }
 body{
 	font-size:100%;
 }
@@ -91,7 +92,7 @@ body{
 /* Header */
 #headerfont{
 	color:white;
-	font-size: 2.6em;
+	font-size: 2.2em;
 	margin-left:4 0px;
 
 	height: 110px;
@@ -100,7 +101,7 @@ body{
 }
 #headerfontEn{
 	color:white;
-	font-size: 16px;
+	font-size: 14px;
 	font-style: Adobe Hebrew Bold;
 	margin-top:12px;
 	padding-left:38px;
@@ -125,7 +126,7 @@ body{
 #headerimage {float:right; width:500px; height:160px; margin:0 0 15px 0; overflow:hidden;}
 #title {width:460px; text-align:left;}
 h1 {margin:0 auto; padding:0; font-size:2.4em; font-weight:700; letter-spacing:-1px; line-height:2.2em; text-shadow:#ddd;}
-h1 a {font-weight:700; text-decoration:none;}
+h1 a {font-weight:600; text-decoration:none;}
 h1 a:hover {color:#222; text-decoration:none;}
 .slogan {color:#555; font-size:1.4em; margin:0 0 15px 0; padding:0; text-shadow:#ccc 2px 2px 8px;}
 
@@ -134,10 +135,10 @@ h1 a:hover {color:#222; text-decoration:none;}
 a {font-weight:400;}
 
 a img {border:0;}
-h2 {clear:left; margin:0 0 12px 0; padding:0 0 8px; font-size:1.35em; font-weight:700; border-bottom:1px solid #ddd; text-shadow:#ccc 2px 2px 8px;}
-h3 {clear:left; font-size:1.1em; font-weight:700; margin:0 0 10px 0; padding:2px 0;  text-shadow:#ccc 2px 2px 6px;}
-h4 {margin-bottom:5px;padding-left: 18px;}
-p {margin:0 0 20px 0;  padding-left:2.9em;}
+h2 {clear:left; margin:0 0 12px 0; padding:0 0 8px; font-size:1.15em; font-weight:700; border-bottom:1px solid #ddd; text-shadow:#ccc 2px 2px 8px;}
+h3 {clear:left; font-size:1.0em; font-weight:700; margin:0 0 10px 0; padding:2px 0;  text-shadow:#ccc 2px 2px 6px;}
+h4 {margin-bottom:5px;padding-left: 18px;font-size: 13px;}
+p {margin:0 0 20px 0;  padding-left:3.0em; font-size:13px;}
 
 #h2p{
 	clear:left;
@@ -145,7 +146,7 @@ p {margin:0 0 20px 0;  padding-left:2.9em;}
 }
 	
 ul {margin:0 0 15px 20px; padding:0;}
-#content li {margin:10px 0 10px 0; padding:0 0 0px 5px;padding-left: 20px; text-align: justify;}
+#content li {margin:10px 0 10px 0; padding:0 0 0px 5px;padding-left: 20px; text-align: justify;font-size: 13px;} 
 #Research li{
 	list-style: none;
 	background:url(images/li.gif) no-repeat 0px 10px; 
@@ -303,6 +304,7 @@ z-index:100; left:0; display:block;}
 	margin:0 0 10px 0;  
 	text-align: justify;
 	margin-left: 40px;
+	font-size: 13px;
 
 }
 
@@ -311,7 +313,7 @@ z-index:100; left:0; display:block;}
 #sidebar li {padding:0; margin:0;}
 #sidebar ul {width:100%; padding:0; margin:0 0 20px 0; border-top:0px;}/*调整目录上边线及其距离*/
 /*调整目录字体及其显示样式*/
-#sidebar ul li a {display:block; text-decoration:none; padding:7px 0 0 15px; margin:0; text-align: left;padding-left:5px;font-size:1.0em; border-bottom: 1px solid #ddd; font-weight:700; text-shadow:#ddd 2px 2px 4px;}
+#sidebar ul li a {display:block; text-decoration:none; padding:7px 0 0 15px; margin:0; text-align: left;padding-left:5px;font-size:0.85em; border-bottom: 1px solid #ddd; font-weight:700; text-shadow:#ddd 2px 2px 4px;}
 #sidebar ul li a:hover {color:#333; text-decoration:none; border-bottom: 1px solid #ddd;}/*调整目录下边线及其距离*/
 #sidebar ul li a.active {color:#333;}
 #sidebar ul ul li a {padding:2px 0 2px 15px; margin:0; font-size:0.9em; font-weight:400;}
@@ -320,16 +322,18 @@ z-index:100; left:0; display:block;}
 
     background:white;
 	height: 0px;
-	margin-left: 80px;
+	margin-left: 120px;
 	margin-top: 50px;
 	
 
 }
+
+
 #Contactfont{
 	margin-top: 10px;
 }
 #Contactback{
-font-size: 14px;
+font-size: 12px;
 }
 
 
