@@ -25,9 +25,9 @@ nav {
 
 #content {
 	height: 100%;
-    margin-left:27%;
+    margin-left:30%;
 	margin-bottom: 100px;
-	margin-right: 120px;
+	margin-right: 150px;
 	
 		/*background: #f9f7ed;*/
 }
@@ -322,7 +322,7 @@ z-index:100; left:0; display:block;}
 
     background:white;
 	height: 0px;
-	margin-left: 120px;
+	margin-left: 150px;
 	margin-top: 50px;
 	
 
@@ -417,7 +417,7 @@ font-size: 12px;
 
 #footer1{
 	height: 112px; background-color:rgb(88, 87, 87);color: white;  background-size: cover;
-	margin: 0;left: 0;right: 0px; font-size: 12px;line-height:1.8rem;width: 100%;bottom: 0px;
+	margin: 0;left: 0;right: 0px; font-size: 11px;line-height:1.8rem;width: 100%;bottom: 0px;
 }
 #leftfooter
 {
