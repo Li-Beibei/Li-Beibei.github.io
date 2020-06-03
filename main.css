@@ -101,7 +101,7 @@ body{
 }
 #headerfontEn{
 	color:white;
-	font-size: 14px;
+	font-size: 15px;
 	font-style: Adobe Hebrew Bold;
 	margin-top:12px;
 	padding-left:38px;
@@ -137,7 +137,7 @@ a {font-weight:400;}
 a img {border:0;}
 h2 {clear:left; margin:0 0 12px 0; padding:0 0 8px; font-size:1.25em; font-weight:700; border-bottom:1px solid #ddd; text-shadow:#ccc 2px 2px 8px;}
 h3 {clear:left; font-size:1.1em; font-weight:700; margin:0 0 10px 0; padding:2px 0;  text-shadow:#ccc 2px 2px 6px;}
-h4 {margin-bottom:5px;padding-left: 18px;font-size: 14px;}
+h4 {margin-bottom:5px;padding-left: 18px;font-size: 13px;}
 p {margin:0 0 20px 0;  padding-left:3.0em; font-size:14px;}
 
 #h2p{
