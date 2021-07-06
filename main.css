@@ -25,7 +25,7 @@ nav {
 
 #content {
 	height: 100%;
-    margin-left:28.5%;
+                margin-left:28.5%;
 	margin-bottom: 100px;
 	margin-right: 150px;
 	
@@ -319,7 +319,7 @@ z-index:100; left:0; display:block;}
 }
 
 #sidebar h2 {font-size:0.9.0em; padding-bottom:5px; border-bottom:1px solid #ddd; margin:15px 0 10px;}
-#sidebar ul {list-style:none; margin:0 0 15px 0;}
+#sidebar ul {list-style:none; margin:100px 0 15px 0;}
 #sidebar li {padding:0; margin:0;}
 #sidebar ul {width:100%; padding:0; margin:0 0 20px 0; border-top:0px;}/*调整目录上边线及其距离*/
 /*调整目录字体及其显示样式*/
