@@ -89,6 +89,7 @@ body{
 #margin-top-h2{
 	margin-top: 40px;
 	}
+
 /* Header */
 #headerfont{
 	color:white;
@@ -276,6 +277,7 @@ FP:before{
 	background:url(images/li.gif) no-repeat 0px 10px; 
 	margin-right: 20px;
 	margin-left: 20px;
+                width：80%;
 }
 #index p{
 	margin-left: 3.5px;
