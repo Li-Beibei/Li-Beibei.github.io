@@ -133,7 +133,12 @@ h1 a:hover {color:#222; text-decoration:none;}
 
 
 /* HTML Tags */
-a {font-weight:400;}
+a {font-weight:400;
+	padding-bottom:2px;//as per your requirement}
+/* 
+a sup {display: inline-block; text-decoration: none;} */
+sup {display: inline-block; line-height: 21px;border-bottom: 1.5px solid blue;}
+/* sup {display: inline-block; padding-bottom: 2px;border-bottom: 1px solid blue;}  */
 
 a img {border:0;}
 h2 {clear:left; margin:0 0 12px 0; padding:0 0 8px; font-size:1.25em; font-weight:700; border-bottom:1px solid #ddd; text-shadow:#ccc 2px 2px 8px;}
