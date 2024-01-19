@@ -155,8 +155,19 @@ p {margin:0 0 20px 0;  padding-left:3.0em; font-size:14px;}
 #funded{
 	font-size: 25px;
 }
-ul {margin:0 0 15px 20px; padding:0;}
-#content li {margin:10px 0 10px 0; padding:0 0 0px 5px;padding-left: 20px; text-align: justify;font-size: 14px;} 
+ul {
+	margin:0 0 15px 20px; 
+	padding:0;
+}
+
+#content li {
+	margin:10px 0 10px 0; 
+	padding:0 0 0px 5px;
+	padding-left: 20px; 
+	text-align: justify;
+	font-size: 14px;
+} 
+
 #Research li{
 	list-style: none;
 	background:url(images/li.gif) no-repeat 0px 10px; 
@@ -185,8 +196,13 @@ FP:before{
 	margin-left: 20px;
 	width: 96%;
 
-
-
+}
+#News_index li{
+	list-style: none;
+	background:url(images/li.gif) no-repeat 0px 10px; 
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 100%;
 }
 
 #Journal li
@@ -195,8 +211,6 @@ FP:before{
 	
 	background:url(images/jiantou.jpg) no-repeat 0px 7px; 
 	margin-left: 10px;
-	
-
 }
 #Journal  li h3{
 	margin-left: 8px;
@@ -284,7 +298,7 @@ FP:before{
 	background:url(images/li.gif) no-repeat 0px 10px; 
 	margin-right: 20px;
 	margin-left: 20px;
-    width: 80%;
+    width: 90%;
 }
 #index p{
 	margin-left: 3.5px;
