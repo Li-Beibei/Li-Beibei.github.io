@@ -28,7 +28,18 @@
 		.auto-style3 {
 			font-size: large;
 		}
-
+		
+		/* 解决移动版页脚显示在页面中部问题 */
+		@media all and (orientation : portrait) {
+			html {
+				height: auto !important;
+		
+			}
+			#footer1{
+				position: relative;
+				bottom: -20px;
+			}
+		}
 		.boxsettings{
 			border: 2px solid #000; 
 			border-radius: 5px; 
@@ -183,14 +194,14 @@ I am currently looking for highly self-motivated <font color="red">Postdoctoral 
 			<div id="margin-top-h2"></div>			
 			<h2>News</h2>
 			<div id="News_index">
+				<li><span lang="en-gb"><strong>[Jan. 31th, 2024]</strong> Our paper <font color="blue"> "A Bidirectional Differential Evolution Based Unknown Cyberattack Detection System"</font> (Hanyuan Huang, Tao Li, Beibei Li*, Wenhao Wang, Yanan Sun) was accepted by
+					<font style=" font-style:italic"><u>IEEE Transactions on Evolutionary Computation</u></font>.</span>
+				</li>
+				<li><span lang="en-gb"><strong>[Jan. 30th, 2024]</strong> Our paper <font color="blue"> "<a href="https://www.sciencedirect.com/science/article/pii/S1568494624000887" target="_blank">A Robust Wide & Deep Learning Framework for Log-Based Anomaly Detection</a>"</font> (Weina Niu, Xuhan Liao, Shiping Huang, Yudong Li, Xiaosong Zhang, Beibei Li*) was accepted by
+					<font style=" font-style:italic"><u>Applied Soft Computing</u></font>.</span>
+				</li>
 				<li style="width: 93%;"><span lang="en-gb"><strong>[Jan. 17th, 2024]</strong> Our paper <font color="blue"> "A Robust Malicious Traffic Detection Framework with Low-quality Labeled Data"</font> (Lingfeng Yao, Weina Niu, Qingjun Yuan, Beibei Li, Yanfeng Zhang, Xiaosong Zhang) was accepted by
 					<font style=" font-style:italic"><u>2024 IEEE International Conference on Communications</u></font>.</span>
-				</li>
-				<li style="width: 93%;"><span lang="en-gb"><strong>[Jan. 17th, 2024]</strong> Our paper <font color="blue"> "GraphCyber: Identifying IP Usage Scenarios for Cyberspace Mapping"</font> (Liang Liu, Yuhao He, Lei Zhang, Lin Liu, Beibei Li) was accepted by
-					<font style=" font-style:italic"><u>2024 IEEE International Conference on Communications</u></font>.</span>
-				</li>
-				<li style="width: 93%;"><span lang="en-gb"><strong>[Jan. 2nd, 2024]</strong> Dr. Beibei Li is serving as an<font color="blue"> 
-					associate editor for the Journal of Information Processing Systems</font>. Welcome to submit your excellent works at "<a href="http://jips-k.org/" target="_blank"><font color="blue">http://jips-k.org/</font></a>"</font>.</span>
 				</li>
 				<li><a href="News.html">Read More</a></li>
 			</div>
