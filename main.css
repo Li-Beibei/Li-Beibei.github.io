@@ -81,7 +81,9 @@ nav ul li a:hover {
 
 
 body {margin:0; padding:0; font:92% Tahoma,sans-serif; background:#fefefe url(images/background.jpg) top left repeat-x; color:#555; text-align:left; line-height:1.6em;}
-#wrap {text-align:left;  }
+#wrap {text-align:left;
+	height: 100%;
+  }
 body{
 	font-size:100%;
 }
@@ -453,8 +455,17 @@ font-size: 2px;
 }*/
 
 #footer1{
-	height: 112px; background-color:rgb(88, 87, 87);color: white;  background-size: cover;
-	margin: 0;left: 0;right: 0px; font-size: 12px;line-height:1.8rem;width: 100%;bottom: 0px;
+	height: 112px; 
+	background-color:rgb(88, 87, 87);
+	color: white;  
+	background-size: cover;
+	margin: 0;
+	left: 0;
+	right: 0px; 
+	font-size: 12px;
+	line-height:1.8rem;
+	width: 100%;
+	bottom: 0px;
 }
 #leftfooter
 {
@@ -476,7 +487,7 @@ font-size: 2px;
 
 /* 当浏览器窗口不超过最大800px时(意思就是小于800px时) */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
 	html{
 		height: auto;
 	}
@@ -497,7 +508,6 @@ font-size: 2px;
 		margin-bottom: 100px;
 		margin-right: 40px;
 	
-			/*background: #f9f7ed;*/
 	}
 	#header1 {
 		padding-left:0px;
@@ -527,14 +537,11 @@ font-size: 2px;
 	display:block;width:500px;text-align:right;float: right;margin:25px 40px 0px 40px;
 
 }
-}
+} */
 
 /*竖屏*/
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
 
-	/*#wrap{
-		margin-bottom: 150px;
-	}*/
 	html{
 		position: relative;
 		height: auto;
@@ -557,72 +564,144 @@ font-size: 2px;
 		margin-bottom: 100px;
 		margin-right: 40px;
 	
-			/*background: #f9f7ed;*/
 	}
 	#sidebar {
 		margin-left:40px;
 		width: 15%;
 	}
-}
+} */
 @media all and (orientation : portrait) {
-html{
-	position: relative;
-	/* height: auto; */
-}
-.Black{
-	height: auto;
-}
-#footer1{
-	position: absolute;
-	margin-bottom: 0px;
-}
-#wrap{
+html, body{
+	/* position: relative; */
 	height: 100%;
 }
-	#sidebar {
-		margin-left: 40px;
-		width:15%;
+.Black{
+	height: 100%;
+}
+#wrap{
+	min-height: 100%;
+	height: 100%;
+    display: flex; /* 容器为flex布局 */
+    flex-direction: column; /* 方向为纵向，保持正常的从上到下文档流 */
+}
+#sidebar {
+	margin-left: 40px;
+	width:15%;
+}
 
-	}
+#content {
+	height: 100%;
+	margin-left:28%;
+	margin-bottom: 100px;
+	margin-right: 40px;
+	/*background: #f9f7ed;*/
+}
 
-	#content {
-		height: 100%;
-		margin-left:28%;
-		margin-bottom: 100px;
-		margin-right: 40px;
-	
-			/*background: #f9f7ed;*/
-	}
+#header1 {
+	padding-left:0px;
+}
+#header {
+	padding-left:200px;
+}
 
-	#header1 {
-		padding-left:0px;
-	}
-	#header {
-		padding-left:200px;
-	}
-
-
-	canvas#live2dcanvas {
-		display: none;
-	}
+canvas#live2dcanvas {
+	display: none;
+}
 	
 #footer1{
-	height: 112px; background-color:rgb(88, 87, 87);color: white;width: 100%;
-	margin: 0;left: 0;right: 0px;bottom: 0; font-size: 12px;line-height:1.8rem;
+	margin-top: auto !important; /* 设置footer的上外边距为auto */
+	height: 112px; 
+	background-color:rgb(88, 87, 87);
+	color: white;
+	width: 100%;
+	margin: 0;
+	left: 0;
+	right: 0px;
+	bottom: 0; 
+	font-size: 12px;
+	line-height:1.8rem;
 }
 #leftfooter
 {
-	display:block; margin-left: 40px;width:340px; 
-		margin-top: 25px; text-align: left;float: left;position: absolute;
+	display:block; 
+	margin-left: 40px;
+	width:340px; 
+	margin-top: 25px; 
+	text-align: left;
+	float: left;
+	/* position: absolute; */
 }
 #footer1 p{
 	padding-left: 4.8em;
 }
 #rightfooter{
-	display:block;width:500px; text-align:right;float: left;float: right;margin:25px 40px 0px 40px;
+	display:block;
+	width:500px; 
+	text-align:right;
+	float: left;
+	float: right;
+	margin:25px 40px 0px 40px;
 
 }
 }
+
+/* @media all and (orientation : portrait) {
+	html{
+		position: relative;
+	}
+	.Black{
+		height: auto;
+	}
+	#footer1{
+		position: absolute;
+		margin-bottom: 0px;
+	}
+	#wrap{
+		height: 100%;
+	}
+		#sidebar {
+			margin-left: 40px;
+			width:15%;
+	
+		}
+	
+		#content {
+			height: 100%;
+			margin-left:28%;
+			margin-bottom: 100px;
+			margin-right: 40px;
+		
+		}
+	
+		#header1 {
+			padding-left:0px;
+		}
+		#header {
+			padding-left:200px;
+		}
+	
+	
+		canvas#live2dcanvas {
+			display: none;
+		}
+		
+	#footer1{
+		height: 112px; background-color:rgb(88, 87, 87);color: white;width: 100%;
+		margin: 0;left: 0;right: 0px;bottom: 0; font-size: 12px;line-height:1.8rem;
+	}
+	#leftfooter
+	{
+		display:block; margin-left: 40px;width:340px; 
+			margin-top: 25px; text-align: left;float: left;position: absolute;
+	}
+	#footer1 p{
+		padding-left: 4.8em;
+	}
+	#rightfooter{
+		display:block;width:500px; text-align:right;float: left;float: right;margin:25px 40px 0px 40px;
+	
+	}
+	} */
 
 /* #################### 自适应 #################### */
 

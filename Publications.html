@@ -29,17 +29,6 @@
 			font-size: large;
 		}
 
-		/* 解决移动版页脚显示在页面中部问题 */
-		@media all and (orientation : portrait) {
-			html {
-				height: auto !important;
-		
-			}
-			#footer1{
-				position: relative;
-				bottom: -20px;
-			}
-		}
 		
 	</style>
 	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><!--用以计算访问量的第三方js文件-->
@@ -358,6 +347,7 @@
 
 
 	</div>
+	
 	<div id="footer1"><!--控制底部信息的格式-->
 		<div id="leftfooter"><!--控制底部左侧文字格式-->
 			<span>Address: No. 24, 1st South Section, Yihuan Road, Wuhou District, Chengdu, Sichuan Province, P.R.
@@ -370,6 +360,7 @@
 				</br>
 				<span>Copyright © 2023 Beibei Li, Sichuan University. All Rights Reserved.</span>
 		</div>
+	</div>
 </body>
 
 </html>
