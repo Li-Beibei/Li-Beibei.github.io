@@ -571,18 +571,20 @@ font-size: 2px;
 	}
 } */
 @media all and (orientation : portrait) {
-html, body{
+html{
 	/* position: relative; */
 	height: 100%;
 }
 .Black{
-	height: 100%;
+	height: auto;
 }
 #wrap{
 	min-height: 100%;
 	height: 100%;
-    display: flex; /* 容器为flex布局 */
-    flex-direction: column; /* 方向为纵向，保持正常的从上到下文档流 */
+	display: grid; /* 容器为grid布局 */ 
+    grid-template-rows: auto 1fr auto;
+    /* display: flex; 
+    flex-direction: column; */
 }
 #sidebar {
 	margin-left: 40px;
@@ -609,7 +611,7 @@ canvas#live2dcanvas {
 }
 	
 #footer1{
-	margin-top: auto !important; /* 设置footer的上外边距为auto */
+	/* margin-top: auto !important;  */
 	height: 112px; 
 	background-color:rgb(88, 87, 87);
 	color: white;

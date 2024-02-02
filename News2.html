@@ -46,6 +46,17 @@
 			font-size: large;
 		}
 
+		/* 解决移动版页脚显示在页面中部问题 */
+		@media all and (orientation : portrait) {
+			html {
+				height: auto !important;
+		
+			}
+			#footer1{
+				position: relative;
+				bottom: -20px;
+			}
+		}
 		/*.Black{
 			height: 100%;
 		}
