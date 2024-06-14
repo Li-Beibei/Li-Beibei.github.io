@@ -707,6 +707,22 @@ canvas#live2dcanvas {
 
 /* #################### 自适应 #################### */
 
+/* 未读提示 */
+
+.red-point{
+	position: relative;
+}
+
+.red-point::before{
+	content: " ";
+	border: 3px solid red;/*设置红色*/
+	border-radius:3px;/*设置圆角*/
+	position: absolute;
+	z-index: 1000;
+	right: 0;
+	margin-right: -8px;
+}
+
 
 
 
