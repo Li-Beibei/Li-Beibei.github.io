@@ -65,6 +65,13 @@
 				height: auto !important;
 			}
 		}
+        /* 解决手机上两端对齐问题 */
+        @media (max-width: 600px) {
+            li {
+                text-align: left;
+                word-break: break-word; /* 自动换行 */
+            }
+        }
 	
 	</style>
 	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
